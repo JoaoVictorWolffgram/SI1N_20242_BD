@@ -7,10 +7,10 @@ INSERT INTO CLIENTES (CPF_CLIENTE, NOME_CLIENTE, NASC_CLIENTE, STATUS_CLIENTE, R
 
 INSERT INTO PRODUTOS (ID_PROD, NOME_PROD, DIMENSOES_PROD, VALOR_PROD, DISP_PROD, PROD_FORNC_FORNECEDOR, COR_PROD) VALUES
 (1, 'Produto X', 10, 100, 'SIM', 'Fornecedor A', 'Vermelho');
-(2, 'Produto Y', 15, 200, 'SIM', 'Fornecedor B', 'Azul');
-(3, 'Produto Z', 20, 300, 'NAO', 'Fornecedor C', 'Verde');
-(4, 'Produto W', 25, 400, 'SIM', 'Fornecedor D', 'Preto');
-(5, 'Produto V', 30, 500, 'NAO', 'Fornecedor E', 'Branco');
+(2, 'Produto Y', 15, 200, 'NAO', 'Fornecedor B', 'Azul');
+(3, 'Produto Z', 20, 300, 'SIM', 'Fornecedor C', 'Verde');
+(4, 'Produto W', 25, 400, 'NAO', 'Fornecedor D', 'Preto');
+(5, 'Produto V', 30, 500, 'SIM', 'Fornecedor E', 'Branco');
 
 INSERT INTO FORNECEDORES (ID_FORN, TELEFONE_FORN, CONTATO_FORN, PRODUTO_FORN, DESC_PROD_FORN) VALUES
 (1, 123456789, 'Fornecedor A', 'Produto X', 'Descrição do Produto A');
